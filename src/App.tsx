@@ -1,5 +1,9 @@
 function App() {
-  return <h1>Hello Portfolio 🚀</h1>;
+  return (
+    <div className="h-screen flex items-center justify-center bg-black">
+      <h1 className="text-4xl text-green-400">Tailwind Working 🚀</h1>
+    </div>
+  );
 }
 
 export default App;
