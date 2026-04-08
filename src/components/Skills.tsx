@@ -23,7 +23,7 @@ function Skills() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: index * 0.05 }}
-            className="px-5 py-2 border border-gray-700 rounded-full text-sm md:text-base hover:border-green-400 transition"
+            className="px-5 py-2 bg-[#0f172a]/50 backdrop-blur border border-gray-700 rounded-full hover:border-green-400 hover:shadow-[0_0_10px_rgba(34,197,94,0.4)] transition"
           >
             {skill}
           </motion.div>

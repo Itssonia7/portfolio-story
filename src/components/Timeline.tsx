@@ -25,7 +25,7 @@ function Timeline() {
             className="mb-10 ml-6"
           >
             {/* Dot */}
-            <div className="absolute w-3 h-3 bg-green-400 rounded-full -left-1.5 mt-2"></div>
+            <div className="absolute w-3 h-3 bg-green-400 shadow-[0_0_10px_rgba(34,197,94,0.8)] rounded-full -left-1.5 mt-2"></div>
 
             <h3 className="text-xl font-semibold text-green-400">
               {item.title}

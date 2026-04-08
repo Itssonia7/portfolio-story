@@ -23,7 +23,7 @@ function Projects() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="border border-gray-700 rounded-xl p-6 hover:border-green-400 transition"
+            className="bg-[#0f172a]/50 backdrop-blur-md border border-gray-700 rounded-xl p-6 hover:border-green-400 hover:shadow-[0_0_20px_rgba(34,197,94,0.3)] transition"
           >
             <h3 className="text-2xl font-semibold mb-2 text-green-400">
               {project.title}
